@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Duaarr nmek</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+
+form{
+  background-color: rgb(16, 216, 252);
+  text-align: left;
+  margin: auto;
+  display: table;
+}
+
+label{
+    display: inline-block;
+    float: left;
+    clear: left;
+    width: 100px;
+    text-align: left;
+}
+input {
+  display: inline-block;
+  float: left;
+}
+
+.cr {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  color: #ff0000;
+}
+
+.f {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+*/
+
+html {
+  font-family: "Lucida Sans", sans-serif;
+}
+
+.header {
+  background-color: #ffffff;
+  color: #000000;
+  padding: 15px;
+}
+
+</style>
+</head>
+<body>
+
+<div class="header">
+  <center>
+    <h1>Form</h1>
+  </center>
+</div>
+
+<div>
+  <form>
+      <fieldset>
+        <p>
+            <label>Nama : </label>
+            <input type="text" style: name="nama" size="40" placeholder="Nama"><br>
+        </p>
+        <p>
+            <label>NIM : </label>
+            <input type="text" name="nim" size="40"  placeholder="NIM"><br>
+        </p>
+        <p>
+            <label>Alamat : </label>
+            <textarea name="alamat" rows="3" cols="31px" placeholder="Alamat"></textarea><br>
+        </p>
+        <p>
+            <label>Email : </label>
+            <input type="email" name="email" size="40"  placeholder="Email"><br>
+        </p>
+        <p>
+            <label>Password : </label>
+            <input type="password" name="password" size="40"  placeholder="Password"><br>
+        </p>
+        <p>
+            <label>Jenis Kelamin :</label><br>
+            <input type="radio" name="gender" value="laki"> Laki-laki <br>
+            <input type="radio" name="gender" value="perempuan"> Perempuan <br>
+            <input type="radio" name="gender" value="other"> Lainnya <br>
+        </p>
+        <p>
+            <input type="submit" name="submit" value="Login" />
+        </p>
+      </fieldset>
+  </form>
+</div>
+
+<div class="cr">
+  Copyright Resi Uji Maulana / 162410101126
+</div>
+
+<div class="f">
+  <img src="f.jpg" alt="Foto" style="width:50px;height:50px;">
+</div>
+
+
+</body>
+</html>
